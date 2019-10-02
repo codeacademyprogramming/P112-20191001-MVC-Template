@@ -1,0 +1,585 @@
+
+@media only screen and (min-width: 1501px) {
+    .blog-section .container,
+    .services-page .container,
+    .pricing-section .container,
+    .services-section .container, 
+    .testimonial-section .container {
+        max-width: 1570px;
+        padding: 0 50px;
+    }
+    .blog-page .container,
+    .about-page .container,
+    .footer-area .container,
+    .contact-page .container,
+    .blog-details .container,
+    .team-section .container,
+    .about-section .container,
+    .video-section .container,
+    .pricing-table .container,
+    .service-single .container,
+    .partner-section .container {
+        max-width: 1240px;
+    }
+    
+}
+
+
+@media only screen and (max-width: 1500px) {
+    .section-title {
+        font-size: 40px;
+        line-height: 55px;
+    }
+    .hero-section {
+        padding-bottom: 325px;
+    }
+    .hero-contect {
+        padding: 0;
+        max-width: 540px;
+    }
+    .hero-contect .section-title {
+        font-size: 50px;
+        line-height: 60px;
+    }
+    .hero-contect .hero-content-bottom,
+    .service-details .banner-bottom-img {
+        display: none;
+    }
+    .hero-img {
+        height: 500px;
+    }
+    .pop-over {
+        bottom: -75px;
+    }
+    .banner-content {
+        padding-right: 0;
+        max-width: 315px;
+    }
+    .service-details .banner-content {
+        max-width: 430px;
+        padding-left: 0;
+    }
+    .services-page .service-box:last-child:before {
+        width: calc(100% + 24px);
+    }
+    .services-page .service-box:before {
+        width: calc(100% + 50px);
+    }
+    .team-box.small .team-img {
+        height: 295px;
+    }
+    .contact-page {
+        margin-bottom: 225px;
+    }
+    .footer-contact-form {
+        padding-left: 100px;
+    }
+    
+}
+
+
+@media only screen and (max-width: 1199px) {
+    .section-title-hint {
+        margin-top: 0;
+    }
+    .hero-section {
+        padding-bottom: 305px;
+    }
+    .hero-contect {
+        max-width: 450px;
+    }
+    .banner-content {
+        max-width: 270px;
+    }
+    .service-details .banner-content {
+        max-width: 380px;
+    }
+    .big .blog-title-box {
+        top: 33%;
+    }
+    .team-box.small .team-img {
+        height: 343px;
+    }
+    .contact-img-bottom {
+        display: none;
+    }
+    .location .modal-dialog {
+        max-width: 88%;
+        margin: 50px auto;
+    }
+    .location-details {
+        padding-right: 30px;
+    }
+    .scroll-top {
+        font-size: 14px;
+        width: 40px;
+        height: 40px;
+        right: 10px;
+        bottom: 10px;        
+    }
+    
+}
+
+
+
+
+@media only screen and (max-width: 1199px) and (min-width: 992px) { 
+    .team-box .team-img {
+        background-position: left;
+    }
+    .pricing-box .price-rate {
+        left: 15px;
+        bottom: 15px;
+    }
+    .pricing-box .price-rate .price {
+        font-size: 35px;
+    }
+    .price-item h2 {
+        font-size: 40px;
+    }
+    .services-page .service-box:before {
+        left: -35px;
+        width: calc(100% + 35px);
+    }
+    .services-page .service-box:nth-child(2) {
+        margin-left: 35px;
+    }
+
+}
+
+
+@media only screen and (max-width: 991px) {
+    .hero-section {
+        padding-bottom: 170px;
+    }
+    .hero-contect,
+    .banner-content,
+    .service-details .banner-content {
+        max-width: 690px;
+        margin: auto;
+    }
+    .hero-contect {
+        margin-bottom: 75px;
+    }
+    .banner-content {
+        margin-bottom: 45px;
+    }
+    .service-details .banner-content {
+        padding-right: 0;
+    }
+    .hero-img,
+    .banner-img {
+        height: 400px;
+    }
+    .page-banner-area,
+    .page-banner-area.about {
+        padding-bottom: 165px;
+    }
+    .banner-content .banner-bottom-img {
+        display: none;
+    }
+    .banner-img,
+    .service-details .banner-img {
+        margin-left: -15px;
+    }
+    .banner-img .pop-over {
+        width: 50%;
+    }
+    .services-section {
+        margin-bottom: 90px;
+    }
+    .pricing-content,
+    .about-us-content,
+    .services-content {
+        margin-bottom: 68px;
+    }
+    .pricing-content,
+    .about-us-content,
+    .pricing-content p,
+    .services-content p,
+    .about-us-content p {
+        max-width: 100%;
+    }
+    .price-item,
+    .services-page {
+        margin-bottom: 0;
+    }
+    .services-page.single {
+        margin-bottom: 0px;
+    }
+    .service-single,
+    .blgo-details-content,
+    .blog-page .blog-box .blog-img {
+        margin-bottom: 50px;
+    }
+    .blog-details,
+    .contact-page,
+    .video-section,
+    .partner-section,
+    .service-single.img-right {
+        margin-bottom: 100px;
+    }
+    .service-single-content,
+    .img-right .service-single-content {
+        padding: 0 0 65px 0;
+    }
+    .about-page .service-single-content {
+        padding: 0 0 55px 0;
+    }
+    .about-section {
+        margin-bottom: 96px;
+    }
+    .about-page {
+        margin-bottom: 88px;
+    }
+    .pricing-section,
+    .blog-page .blog-box {
+        margin-bottom: 95px;
+    }
+    .pricing-table {
+        margin-bottom: 45px;
+    }
+    .price-item {
+        margin-right: 0;
+    }
+    .testimonial-section {
+        margin-bottom: 75px;
+    }
+    .blog-box,
+    .team-section,
+    .blog-section {
+        margin-bottom: 50px;
+    }
+    .blog-box.big .blog-img {
+        height: 415px;
+    }
+    .blog-page {
+        margin-bottom: 0;
+    }
+    .blog-page .loadmore-btn {
+        margin-top: -40px;
+    }
+    .blog-thumbnail {
+        margin-bottom: 90px;
+    }
+    .blog-thumbnail .thumbnail-img {
+        height: 400px;
+    }
+    .blgo-details-content h3 {
+        margin-bottom: 15px;
+    }
+    .blog-middle {
+        margin: 40px 0;
+    }
+    .blog-img-middle {
+        margin-top: 25px;
+    }
+    .comment-section .comment-form {
+        padding-top: 25px;
+    }
+    .team-box {
+        margin-bottom: 80px;
+    }
+    .contact-page-img {
+        margin-top: 30px;
+    }
+    .location .map {
+        height: 450px;
+    }
+    
+}
+
+
+@media only screen and (max-width: 991px) and (min-width: 768px) {
+    .team-box .box-shape {
+        width: 310px;
+    }
+    .testimonials-outer .testi-quote {
+        left: -20px;
+        bottom: 35px;
+    }
+    
+}
+
+
+@media only screen and (min-width: 768px) {
+    .mobile-copyright {
+        display: none;
+    }
+}
+
+
+@media only screen and (max-width: 767px) {
+    .container,
+    .container-fluid,
+    .hero-section .container-fluid {
+        padding: 0 30px;
+    }
+    .section-title {
+        font-size: 35px;
+        line-height: 45px;
+    }
+    .hero-contect,
+    .banner-content,
+    .service-details .banner-content {
+        max-width: 510px;
+    }
+    .hero-contect .section-title {
+        font-size: 42px;
+        line-height: 52px;
+    }
+    .banner-img {
+        margin-left: 0;
+        margin-right: 0;
+    }
+    .service-details .banner-img {
+        margin-left: 0;
+    }
+    .service-details .pop-over {
+        width: 50%;
+        left: 0;
+    }
+    .services-page .service-box {
+        margin-left: 35px;
+        margin-right: 10px;
+    }
+    .services-page .service-box:before {
+        left: -35px;
+        width: calc(100% + 35px);
+    }
+    .img-right .service-single-content {
+        padding-bottom: 30px;
+    }
+    .pricing-box .price-rate {
+        width: calc(100% - 30px);
+        left: 15px;
+        bottom: 15px;
+    }
+    .pricing-box .price-rate .price {
+        font-size: 35px;
+        margin: 10px 0;
+    }
+    .pricing-box .price-rate .for {
+        font-size: 20px;
+        letter-spacing: 0;
+    }
+    .testimonial-section .owl-nav {
+        top: 455px;
+        left: calc(100% - 110px);
+    }
+    .testimonials-outer .testi-quote {
+        left: 200px;
+        top: 250px;
+    }
+    .testimonial-single {
+        display: block;
+    }
+    .testimonial-img img {
+        margin-bottom: 30px;
+    }
+    .testimonial-details {
+        padding-bottom: 0;
+    }
+    .blog-page .blog-box {
+        padding: 0 50px;
+    }
+    .blog-page .loadmore-btn {
+        margin-left: 65px;
+    }
+    .blog-thumbnail,
+    .blog-img-middle {
+        padding-left: 35px;
+    }
+    .blog-box,
+    .team-box .team-img-wrap {
+        padding-right: 0;
+    }
+    .team-box .team-img {
+        background-position: left;
+    }
+    .partner-item {
+        margin-top: 50px;
+    }
+    .location .location-details {
+        padding: 50px 30px 30px
+    }
+    .scroll-top {
+        display: none !important;
+    }
+    .footer-contact-info {
+        padding: 0 0 95px;
+    }
+    .footer-contact-form {
+        padding: 85px 0 100px;
+    }
+    .footer-contact-form:before {
+        left: -150px;
+    }
+    .copyright {
+        display: none;
+    }
+    .footer-copyright {
+        display: block;
+    }
+    
+}
+
+
+@media only screen and (max-width: 480px) {
+    .hero-contect,
+    .services-page,
+    .services-content,
+    .services-page.single {
+        margin-bottom: 45px;
+    }
+    .hero-btn,
+    .services-boxes,
+    .pricing-boxes {
+        display: block;
+    }
+    .pricing-box img,
+    .service-box img {
+        width: 100%;
+    }
+    .blog-box,
+    .team-box,
+    .video-wrap,
+    .contact-page-img,
+    .price-item-inner,
+    .service-single-img,
+    .comment-section .comment-item.replay {
+        padding-left: 35px;
+    }
+    .hero-btn .theme-btn {
+        margin-bottom: 15px;
+    }
+    .services-section .service-box:nth-child(2) {
+       padding-left: 35px;
+    }
+    .service-box:nth-child(2) {
+        margin-right: 0;
+    }
+    .service-box:last-child,
+    .services-page .service-box:last-child {
+        margin-top: 50px;
+        display: block;
+    }
+    .service-box h6 {
+        margin-top: 20px;
+    }
+    .services-page .service-box {
+        margin-bottom: 88px;
+    }
+    .services-page .service-box:last-child:before {
+        width: calc(100% + 35px);
+        left: -35px;
+    }
+    .services-page .loadmore-btn {
+        margin-bottom: 50px;
+    }
+    .service-single-content {
+        padding-bottom: 30px;
+    }
+    .about-page .service-single-content {
+        padding-bottom: 30px;
+    }
+    .pricing-content,
+    .about-us-content {
+        margin-bottom: 45px;
+    }
+    .about-us-img {
+        padding-right: 35px;
+    }
+    .about-us-img .about-img-title {
+        width: auto;
+        left: 15px;
+        bottom: 15px;
+    }
+    .about-page {
+        margin-bottom: 40px;
+    }
+    .pricing-box:first-child {
+        margin: 0 0 50px;
+    }
+    .pricing-box .price-rate {
+        width: calc(100% - 60px);
+        left: 30px;
+        bottom: 30px;
+    }
+    .price-item h2 {
+        font-size: 35px;
+    }
+    .testimonial-section .owl-nav {
+        top: 395px;
+    }
+    .testimonials-outer .testi-quote {
+        left: 188px;
+        top: 245px;
+        width: 100px;
+        height: 100px;
+    }
+    .testimonial-img img {
+        max-width: 240px;
+    }
+    .blog-title-box h3 {
+        font-size: 30px;
+        line-height: 35px;
+    }
+    .blog-page .blog-box {
+        padding: 0 0 0 35px;
+    }
+    .blog-page .loadmore-btn {
+        margin-left: 15px;
+    }
+    .comment-section .comment-item .comment-img {
+        max-width: 60px;
+        margin-right: 15px;
+    }
+    .comment-section .comment-item .comment-others h4 .replay {
+        float: none;
+    }
+    .team-box .team-img {
+        height: 400px;
+        margin-top: 53px;
+    }
+    .team-box .box-shape {
+        width: 100%;
+        left: -35px;
+    }
+    
+    .team-box .team-img {
+        background-position: center top;
+    }
+    .video-wrap .video-img {
+        height: 300px;
+        margin-right: 0;
+    }
+    .video-wrap .video-btn img {
+        width: 30px;
+    }
+    .team-section {
+        margin-bottom: 100px;
+    }
+    .team-box {
+        margin-bottom: 30px;
+    }
+    .location .map {
+        height: 300px;
+    }
+    
+}
+
+
+
+@media only screen and (max-width: 375px) {
+    .blog-box,
+    .blog-page .blog-box {
+        padding-left: 0;
+    }
+    .team-section .row .col-xl-4:nth-child(1) .team-img {
+        height: 275px;
+        background-size: cover;
+        background-position: center top;
+    }
+}
+
